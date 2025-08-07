@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "liquidbounce",
+    "name": "NightBounce",
+    "description": "A free Minecraft hacked-client, fork LiquidBounce, RinBounce",
+    "version": "${version}",
+    "mcversion": "1.8.9",
+    "url": "https://nightbounce.getsonicwave.xyz",
+    "updateUrl": "",
+    "authorList": ["CCBlueX, Rattermc, VNNightCoderzzz"],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
