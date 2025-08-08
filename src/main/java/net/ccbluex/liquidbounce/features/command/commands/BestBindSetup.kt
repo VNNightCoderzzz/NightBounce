@@ -18,6 +18,7 @@ object BestBindSetupCommand : Command("bestbindsetup") {
         chat("§a§lKill Aura Has Been Set To R, Scaffold Has Been Set To F")
         addNotification(Notification("Setup Success", "Kill Aura Has Been Set To R, Scaffold Has Been Set To F"))
         playEdit()
+    }
 
     override fun tabComplete(args: Array<String>): List<String> = emptyList()
 }
