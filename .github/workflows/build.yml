@@ -39,12 +39,10 @@ jobs:
       - name: Delete old build JARs
         run: rm -f ./build/libs/*.jar || true
 
-      - name: Build (no tests, parallel, daemon)
-        run: ./gradlew build --stacktrace
-
       - name: Prepare artifact and get jar name
         id: prep
         run: |
+          ./gradlew build --stacktrace
           cd build/libs
           JAR=$(find . -name "*.jar" | grep "nightbounce" | head -n1)
           if [ -z "$JAR" ]; then
