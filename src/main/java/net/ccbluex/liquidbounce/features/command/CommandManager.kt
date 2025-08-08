@@ -54,6 +54,7 @@ object CommandManager {
         registerCommand(TeleportCommand)
         registerCommand(AICommand)
         registerCommand(MapleAICommand)
+        registerCommand(BestBindSetup)
     }
 
         fun executeCommands(input: String) {
@@ -144,3 +145,4 @@ object CommandManager {
 
         fun unregisterCommand(command: Command?) = commands.remove(command)
 }
+
