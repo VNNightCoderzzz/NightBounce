@@ -43,15 +43,29 @@ jobs:
         id: prep
         run: |
           ./gradlew build --stacktrace
+          echo "List all jar files in build/libs:"
+          find build/libs -name "*.jar" -exec ls -lh {} \;
+
           cd build/libs
-          JAR=$(find . -name "*.jar" | grep "nightbounce" | head -n1)
+
+          JAR=$(find . -iname "*nightbounce*.jar" | head -n1)
+
           if [ -z "$JAR" ]; then
-            echo "No .jar file found! Build failed."
-            exit 1
+            echo "No jar containing 'nightbounce' found, trying to find newest jar..."
+            JAR=$(ls -t *.jar 2>/dev/null | head -n1)
+
+            if [ -z "$JAR" ]; then
+              echo "No jar found at all. Build failed."
+              exit 1
+            fi
           fi
+
+          echo "Using jar: $JAR"
+
           MINECRAFT_VERSION="1.8.9"
           COMMIT_HASH=$(git rev-parse --short HEAD)
           ARTIFACT_NAME="NightBounce-${{ env.LB_VERSION }}-mc$MINECRAFT_VERSION-$COMMIT_HASH.jar"
+
           mkdir -p ../../artifacts
           cp "$JAR" "../../artifacts/$ARTIFACT_NAME"
           echo "jar_name=$ARTIFACT_NAME" >> $GITHUB_OUTPUT
