@@ -70,7 +70,7 @@ object LiquidBounce {
     const val MINECRAFT_VERSION = "1.8.9"
     
     val clientVersionText = gitInfo["git.build.version"]?.toString() ?: "Fail To Get Client Version"
-    val clientVersionNumber = clientVersionText.substring(1).toIntOrNull() ?: 
+    val clientVersionNumber = clientVersionText.substring(1).toIntOrNull() ?: 0
     val clientCommit = gitInfo["git.commit.id.abbrev"]?.let { "git-$it" } ?: "unknown"
     val clientBranch = gitInfo["git.branch"]?.toString() ?: "unknown"
 
@@ -266,4 +266,5 @@ object LiquidBounce {
     }
 
 }
+
 
