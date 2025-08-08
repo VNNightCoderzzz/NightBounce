@@ -34,13 +34,13 @@ jobs:
           echo "LB_VERSION=$LB_VERSION" >> $GITHUB_ENV
 
       - name: Grant execute permission for gradlew
-        run: chmod +x gradlew
+        run: chmod +x ./gradlew
 
       - name: Delete old build JARs
         run: rm -f ./build/libs/*.jar || true
 
       - name: Build (no tests, parallel, daemon)
-        run: gradlew build --stacktrace
+        run: ./gradlew build --stacktrace
 
       - name: Prepare artifact and get jar name
         id: prep
