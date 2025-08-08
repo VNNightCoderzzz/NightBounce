@@ -1,4 +1,4 @@
-name: nightbouncebuild
+name: nightbouncebuildv3
 
 on:
   push:
