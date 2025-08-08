@@ -30,8 +30,6 @@ class GuiMainMenu : AbstractScreen() {
     private val particles = mutableListOf<OceanParticle>()
     private val smokeParticles = mutableListOf<SmokeParticle>()
     private val buttonAnimations = mutableMapOf<Int, Float>() // Button hover animations
-    val leftTopVersion = "\"${object {}.javaClass.getResourceAsStream("/assets/minecraft/rinbounce/version.txt")!!.bufferedReader(Charsets.UTF_8).readText().trim()}\""
-    
     data class OceanParticle(
         var x: Float,
         var y: Float,
@@ -295,7 +293,7 @@ class GuiMainMenu : AbstractScreen() {
         }
 
         mc.fontRendererObj.drawStringWithShadow(
-            leftTopVersion, 10f, 10f, 0xFFFFFF
+            "1.2.6", 10f, 10f, 0xFFFFFF
 
         )
         val liquidBounceTitle = "NightBounce"
@@ -405,4 +403,5 @@ class GuiMainMenu : AbstractScreen() {
 
 
 }
+
 
