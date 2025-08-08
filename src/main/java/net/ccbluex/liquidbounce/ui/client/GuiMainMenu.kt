@@ -30,7 +30,7 @@ class GuiMainMenu : AbstractScreen() {
     private val particles = mutableListOf<OceanParticle>()
     private val smokeParticles = mutableListOf<SmokeParticle>()
     private val buttonAnimations = mutableMapOf<Int, Float>() // Button hover animations
-    val leftTopVersion = "\"${ReadResourceFile::class.java.getResourceAsStream("/assets/minecraft/rinbounce/version.txt")!!.readAllBytes().toString(Charsets.UTF_8)}\""
+    val leftTopVersion = "\"${object {}.javaClass.getResourceAsStream("/assets/minecraft/rinbounce/version.txt")!!.bufferedReader(Charsets.UTF_8).readText().trim()}\""
     
     data class OceanParticle(
         var x: Float,
@@ -405,3 +405,4 @@ class GuiMainMenu : AbstractScreen() {
 
 
 }
+
