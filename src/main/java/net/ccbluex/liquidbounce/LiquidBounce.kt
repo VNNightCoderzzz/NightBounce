@@ -63,14 +63,14 @@ object LiquidBounce {
 
     const val CLIENT_AUTHOR = "CCBlueX, Rattermc, VNNightCoderzzz"
     const val CLIENT_CLOUD = "https://cloud.liquidbounce.net/LiquidBounce"
-    const val CLIENT_WEBSITE = "rinbounce.wtf"
+    const val CLIENT_WEBSITE = "nightbounce.getsonicwave.xyz"
     const val CLIENT_GITHUB = "https://github.com/VNNightCoderzzz/NightBounce"
     const val MAPLEAI_API_URL = "https://api.mapleai.lol/v1/chat/completions"
 
     const val MINECRAFT_VERSION = "1.8.9"
     
-    val clientVersionText = gitInfo["git.build.version"]?.toString() ?: "fuck skidder"
-    val clientVersionNumber = clientVersionText.substring(1).toIntOrNull() ?: 0 // version format: "b<VERSION>" on legacy
+    val clientVersionText = gitInfo["git.build.version"]?.toString() ?: "Fail To Get Client Version"
+    val clientVersionNumber = clientVersionText.substring(1).toIntOrNull() ?: 
     val clientCommit = gitInfo["git.commit.id.abbrev"]?.let { "git-$it" } ?: "unknown"
     val clientBranch = gitInfo["git.branch"]?.toString() ?: "unknown"
 
@@ -266,3 +266,4 @@ object LiquidBounce {
     }
 
 }
+
