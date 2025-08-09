@@ -1,0 +1,431 @@
+{
+    "locale": "vi_VN",
+    "contributors": [
+        "VNNightCoderzzz"
+    ],
+    "translations": {
+        "menu.altManager": "Quản lý Alt",
+        "menu.fontManager": "Quản lý Font",
+        "menu.mods": "Mods",
+        "menu.serverStatus": "Trạng thái Server",
+        "menu.configuration": "Cấu hình",
+        "menu.contributors": "Người đóng góp",
+
+        "button.back": "Quay lại",
+        "button.moveUp": "Di chuyển lên",
+        "button.moveDown": "Di chuyển xuống",
+        "button.import": "Nhập",
+        "button.export": "Xuất",
+        "button.add": "Thêm",
+        "button.remove": "Xóa",
+
+        "button.altManager.copy": "Sao chép",
+        "button.altManager.login": "Đăng nhập",
+        "button.altManager.randomAlt": "Alt ngẫu nhiên",
+        "button.altManager.randomName": "Tên ngẫu nhiên",
+        "button.altManager.directLogin": "Đăng nhập trực tiếp",
+        "button.altManager.theAltening": "TheAltening",
+        "button.altManager.cape": "Áo choàng",
+        "button.altManager.sessionLogin": "Đăng nhập session",
+        "button.altManager.buy": "Mua",
+
+        "button.fontManager.edit": "Chỉnh sửa",
+
+        "button.openURL": "Mở URL",
+        "button.cancel": "Hủy",
+
+        "text.fontManager.name": "Tên",
+        "text.fontManager.size": "Kích thước",
+        "text.fontManager.preview": "Xem trước",
+        "text.fontManager.customFonts": "%d font tùy chỉnh",
+        "text.fontManager.customFonts.plural": "%d font tùy chỉnh",
+
+        "text.Search": "§7Tìm kiếm",
+        "text.Loggingintoaccount": "Đang đăng nhập tài khoản...",
+
+        "menu.discordRPC.typeBox": "Gõ vào đây..",
+
+        "menu.altManager.typeCustomPrefix": "Gõ tiền tố Alt tùy chỉnh vào đây..",
+
+        "notification.moduleEnabled": "Đã bật %s",
+        "notification.moduleDisabled": "Đã tắt %s",
+
+        "module.aimbot.description": "Tự động hướng về thực thể đã chọn quanh bạn.",
+
+        "module.autoArmor.description": "Tự động mặc áo giáp tốt nhất trong kho đồ.",
+
+        "module.autoBow.description": "Tự động bắn tên khi cung đã nạp đầy.",
+
+        "module.autoClicker.description": "Liên tục click khi giữ nút chuột.",
+
+        "module.autoDisable.description": "Tự động tắt module dựa trên sự kiện đã chọn.",
+
+        "module.autoLeave.description": "Tự động rời server khi máu thấp.",
+
+        "module.autoPot.description": "Tự động quăng bình hồi máu.",
+
+        "module.autoRod.description": "Tự động dùng cần câu để đánh PVP.",
+
+        "module.autoSoup.description": "Tự động ăn súp khi máu thấp.",
+
+        "module.autoWeapon.description": "Tự động chọn vũ khí tốt nhất trong hotbar.",
+
+        "module.backtrack.description": "Cho phép đánh trúng vị trí cũ của người chơi.",
+
+        "module.bedDefender.description": "Tự động bảo vệ giường bằng block.",
+
+        "module.bedPlates.description": "Cho phép thấy các block quanh giường.",
+
+        "module.pointerESP.description": "Cho phép thấy vị trí entity được chỉ.",
+
+        "module.projectileAimbot.description": "Tự động ngắm người chơi khi dùng đạn bắn.",
+
+        "module.criticals.description": "Tự động đánh chí mạng.",
+
+        "module.fastBow.description": "Biến cung thành súng máy.",
+
+        "module.hitBox.description": "Làm hitbox mục tiêu to hơn.",
+
+        "module.ignite.description": "Tự động đốt mục tiêu quanh bạn.",
+
+        "module.killAura.description": "Tự động tấn công mục tiêu quanh bạn.",
+
+        "module.noFriends.description": "Cho phép tấn công bạn bè.",
+
+        "module.superKnockback.description": "Tăng knockback gây ra cho kẻ khác.",
+
+        "module.teleportHit.description": "Cho phép đánh xa.",
+
+        "module.tNTBlock.description": "Tự động block bằng kiếm khi TNT nổ gần.",
+
+        "module.tNTTimer.description": "Hiển thị đồng hồ đếm ngược TNT sắp nổ.",
+
+        "module.velocity.description": "Cho phép thay đổi knockback bạn nhận.",
+
+        "module.abortBreaking.description": "Cho phép hủy phá block mà không mất tiến trình.",
+
+        "module.ambience.description": "Thay đổi thời tiết và thời gian client-side.",
+
+        "module.antiHunger.description": "Ngăn bạn bị đói.",
+
+        "module.bedGodMode.description": "Cho phép nằm trong giường khi di chuyển. (Dành cho 1.9)",
+
+        "module.clip.description": "Cho phép xuyên block.",
+
+        "module.antiBounce.description": "Ngăn bạn nhảy bật trên block.",
+
+        "module.animations.description": "Tùy chỉnh animation block.",
+
+        "module.antiAFK.description": "Ngăn bị kick vì AFK.",
+
+        "module.antiBlind.description": "Hủy hiệu ứng mù.",
+
+        "module.antiBot.description": "Ngăn KillAura tấn công bot AntiCheat.",
+
+        "module.antiExploit.description": "Ngăn server crash bạn.",
+
+        "module.antiCactus.description": "Ngăn xương rồng làm đau bạn.",
+
+        "module.antiFireball.description": "Tự động đấm lửa bay về phía bạn.",
+
+        "module.antiVoid.description": "Tự động kéo bạn lên sau khi rơi xa.",
+
+        "module.atAllProvider.description": "Tự động mention tất cả khi dùng '@a'.",
+
+        "module.attackEffects.description": "Hiện hiệu ứng khi tấn công.",
+
+        "module.autoAccount.description": "Tự động đăng ký/đăng nhập & quản lý tài khoản cực đầy đủ.",
+
+        "module.autoBreak.description": "Tự động phá block bạn đang nhìn.",
+
+        "module.autoFish.description": "Tự động câu cá khi dùng cần câu.",
+
+        "module.autoProjectile.description": "Tự động quăng trứng/bóng tuyết.",
+
+        "module.autoPlay.description": "Tự động vào queue trận kế tiếp.",
+
+        "module.autoRespawn.description": "Tự động hồi sinh sau khi chết.",
+
+        "module.autoTool.description": "Tự động chọn công cụ tốt nhất để đào block.",
+
+        "module.autoWalk.description": "Tự động đi bộ.",
+
+        "module.avoidHazards.description": "Ngăn bạn bước vào block có hại.",
+
+        "module.blink.description": "Tạm ngưng gửi packet di chuyển.",
+
+        "module.bedProtectionESP.description": "Hiển thị nơi cần đặt block để bảo vệ giường.",
+
+        "module.blockESP.description": "Cho phép nhìn thấy block đã chọn xuyên tường.",
+
+        "module.blockOverlay.description": "Cho phép thay đổi kiểu hiển thị overlay block.",
+
+        "module.blockWalk.description": "Cho phép đi trên block không đầy đủ.",
+
+        "module.breadcrumbs.description": "Để lại dấu vết phía sau.",
+
+        "module.bufferSpeed.description": "Đi nhanh hơn trên slabs và cầu thang.",
+
+        "module.cameraClip.description": "Cho phép nhìn xuyên tường ở chế độ nhìn thứ 3.",
+
+        "module.cameraView.description": "Cho phép chỉnh vị trí camera theo trục Y.",
+
+        "module.chams.description": "Cho phép nhìn thấy mục tiêu xuyên block.",
+
+        "module.chestAura.description": "Tự động mở rương quanh bạn.",
+
+        "module.chestStealer.description": "Tự động lấy hết đồ từ rương.",
+
+        "module.civBreak.description": "Cho phép phá block ngay lập tức.",
+
+        "module.clickGUI.description": "Mở giao diện ClickGUI.",
+
+        "module.componentOnHover.description": "Hiện hành động và giá trị khi hover tin nhắn chat.",
+
+        "module.consoleSpammer.description": "Spam lỗi vào console server.",
+
+        "module.damage.description": "Tự gây sát thương cho bản thân.",
+
+        "module.derp.description": "Làm như bạn đang ngu ngơ.",
+
+        "module.eSP.description": "Cho phép nhìn mục tiêu xuyên tường.",
+
+        "module.eagle.description": "Làm bạn bay nhanh (FastBridge).",
+
+        "module.fakeLag.description": "Làm bạn lag phía server đến khi đánh trúng.",
+
+        "module.fastBreak.description": "Phá block nhanh hơn.",
+
+        "module.fastClimb.description": "Leo thang và dây nhanh hơn.",
+
+        "module.fastPlace.description": "Đặt block nhanh hơn.",
+
+        "module.fastStairs.description": "Leo cầu thang nhanh hơn.",
+
+        "module.fastUse.description": "Dùng item nhanh hơn.",
+
+        "module.flagCheck.description": "Phát hiện bạn bị AntiCheat đánh dấu.",
+
+        "module.fly.description": "Cho phép bay ở chế độ sinh tồn.",
+
+        "module.forceUnicodeChat.description": "Cho phép gửi tin nhắn unicode.",
+
+        "module.freeCam.description": "Cho phép di chuyển ra khỏi thân thể.",
+
+        "module.freeLook.description": "Cho phép nhìn quanh khi ở góc nhìn thứ ba.",
+
+        "module.freeze.description": "Cho phép đứng im giữa không trung.",
+
+        "module.fucker.description": "Phá các block xung quanh (IDNuker).",
+
+        "module.fullbright.description": "Làm sáng thế giới quanh bạn.",
+
+        "module.gameDetector.description": "Phát hiện bạn đang trong trận đấu.",
+
+        "module.ghost.description": "Cho phép đi và tương tác sau khi chết.",
+
+        "module.ghostHand.description": "Cho phép tương tác block xuyên tường.",
+
+        "module.godMode.description": "GodMode cho AAC.",
+
+        "module.hUD.description": "Bật/tắt hiển thị HUD.",
+
+        "module.highJump.description": "Cho phép nhảy cao hơn.",
+
+        "module.iceSpeed.description": "Đi nhanh hơn trên băng.",
+
+        "module.inventoryCleaner.description": "Tự động vứt đồ không cần thiết.",
+
+        "module.inventoryMove.description": "Cho phép di chuyển khi mở inventory.",
+
+        "module.itemESP.description": "Cho phép thấy đồ rơi xuyên tường.",
+
+        "module.itemTeleport.description": "Cho phép nhặt đồ ở xa.",
+
+        "module.itemPhysics.description": "Cho phép đồ rơi có vật lý.",
+
+        "module.jumpCircle.description": "Hiển thị vòng tròn khi nhảy.",
+
+        "module.keepAlive.description": "Cố gắng ngăn bạn chết.",
+
+        "module.keepContainer.description": "Cho phép mở container đã đóng mọi nơi (Nhấn phím INSERT).",
+
+        "module.keepTabList.description": "Giữ danh sách TAB luôn mở.",
+
+        "module.keyPearl.description": "Cho phép ném pearl từ hotbar bằng phím.",
+
+        "module.kick.description": "Cho phép tự kick khỏi server.",
+
+        "module.liquidChat.description": "Cho phép chat với người dùng LiquidBounce khác.",
+
+        "module.liquidWalk.description": "Cho phép đi trên nước.",
+
+        "module.liquids.description": "Cho phép tương tác với chất lỏng.",
+
+        "module.longJump.description": "Cho phép nhảy xa hơn.",
+
+        "module.midClick.description": "Thêm bạn bằng cách nhấp phải lên người chơi.",
+
+        "module.moreCarry.description": "Cho phép cất đồ trong slot crafting.",
+
+        "module.multiActions.description": "Cho phép dùng item khi phá block.",
+
+        "module.nameProtect.description": "Thay đổi tên người chơi ở client.",
+
+        "module.nameTags.description": "Thay đổi kích thước name tag để luôn đọc được.",
+
+        "module.noBob.description": "Tắt hiệu ứng lắc view.",
+
+        "module.noClip.description": "Cho phép di chuyển xuyên tường (cần block rơi đè đầu).",
+
+        "module.noFOV.description": "Tắt thay đổi FOV do hiệu ứng tốc độ.",
+
+        "module.noFall.description": "Ngăn bạn bị rớt mất máu.",
+
+        "module.noFluid.description": "Bỏ qua chất lỏng như nước, lava.",
+
+        "module.noHurtCam.description": "Tắt hiệu ứng rung khi bị đánh.",
+
+        "module.noJumpDelay.description": "Xóa delay giữa các lần nhảy.",
+
+        "module.noPitchLimit.description": "Cho phép xoay đầu vô hạn mọi hướng.",
+
+        "module.noRotateSet.description": "Ngăn server xoay đầu bạn.",
+
+        "module.noSlotSet.description": "Ngăn server đổi slot hotbar của bạn.",
+
+        "module.noSlow.description": "Hủy hiệu ứng chậm do Soul Sand hoặc dùng item.",
+
+        "module.noSlowBreak.description": "Tự động điều chỉnh tốc độ phá khi dùng mod liên quan.",
+
+        "module.noSwing.description": "Tắt hiệu ứng vung tay khi đánh hoặc đào.",
+
+        "module.notifier.description": "Thông báo tất cả sự kiện.",
+
+        "module.noWeb.description": "Ngăn bạn bị chậm trong mạng nhện.",
+
+        "module.nuker.description": "Phá tất cả block quanh bạn.",
+
+        "module.packetDebugger.description": "Cho phép debug packet gửi/nhận giữa client-server.",
+
+        "module.parkour.description": "Tự động nhảy khi tới mép block.",
+
+        "module.perfectHorseJump.description": "Tự động nhảy khi thanh nhảy trên ngựa đầy.",
+
+        "module.phase.description": "Cho phép đi xuyên block.",
+
+        "module.pingSpoof.description": "Giả ping theo giá trị cho trước.",
+
+        "module.plugins.description": "Cho phép xem server đang dùng plugin gì.",
+
+        "module.portalMenu.description": "Cho phép mở menu khi đang trong portal.",
+
+        "module.potionSaver.description": "Đóng băng hiệu ứng potion khi đứng yên.",
+
+        "module.potionSpoof.description": "Cho phép có hiệu ứng potion mà không cần uống.",
+
+        "module.projectiles.description": "Cho phép thấy vị trí tên sẽ bay tới.",
+
+        "module.prophuntESP.description": "Cho phép thấy người chơi giả dạng trong PropHunt.",
+
+        "module.reach.description": "Tăng khoảng cách đánh.",
+
+        "module.refill.description": "Tự động thêm đồ từ kho vào hotbar.",
+
+        "module.regen.description": "Hồi máu nhanh hơn.",
+
+        "module.resourcePackSpoof.description": "Ngăn server ép tải resource pack.",
+
+        "module.reverseStep.description": "Đi xuống block nhanh hơn.",
+
+        "module.rotations.description": "Cho phép xem xoay đầu/bộ phận server bên.",
+
+        "module.safeWalk.description": "Ngăn bạn rớt xuống như đang sneaking.",
+
+        "module.RinReach.description": "Reach lấy từ RinBounce.",
+
+        "module.rinReach.description": "Reach lấy từ RinBounce.",
+
+        "module.Rinreach.description": "Reach lấy từ RinBounce.",
+
+        "module.NightReach.description": "Reach mod bởi NightBounce.",
+
+        "module.nightReach.description": "Reach mod bởi NightBounce.",
+
+        "module.Nightreach.description": "Reach mod bởi NightBounce.",
+
+        "module.SpinBot.description": "Module SpinBot hài hước, làm bạn xoay vòng.",
+
+        "module.Spinbot.description": "Module SpinBot hài hước, làm bạn xoay vòng.",
+
+        "module.spinBot.description": "Module SpinBot hài hước, làm bạn xoay vòng.",
+
+        "module.scaffold.description": "Tự động đặt block dưới chân.",
+
+        "module.serverCrasher.description": "Cho phép crash server.",
+
+        "module.skinDerp.description": "Làm da nhấp nháy (cần skin đa lớp).",
+
+        "module.slimeJump.description": "Nhảy cao hơn trên block slime.",
+
+        "module.silentHotbar.description": "Kiểm soát khi nào item đổi lặng lẽ được hiển thị.",
+
+        "module.sneak.description": "Tự động núp suốt.",
+
+        "module.spammer.description": "Spam chat với tin nhắn đã cho.",
+
+        "module.speed.description": "Đi nhanh hơn.",
+
+        "module.sprint.description": "Tự động chạy nhanh suốt.",
+
+        "module.staffDetector.description": "Phát hiện và báo staff trên server.",
+
+        "module.step.description": "Cho phép bước lên block.",
+
+        "module.storageESP.description": "Cho phép thấy rương xuyên tường.",
+
+        "module.strafe.description": "Cho phép di chuyển tự do trên không.",
+
+        "module.tNTESP.description": "Cho phép thấy TNT đang cháy xuyên tường.",
+
+        "module.teams.description": "Ngăn KillAura tấn công đồng đội.",
+
+        "module.teleport.description": "Cho phép dịch chuyển tức thì.",
+
+        "module.timerRange.description": "Điều khiển tốc độ game để có lợi thế.",
+
+        "module.timer.description": "Thay đổi tốc độ toàn game.",
+
+        "module.tracers.description": "Vẽ đường tới mục tiêu quanh bạn.",
+
+        "module.trueSight.description": "Cho phép thấy entity vô hình và barrier.",
+
+        "module.vehicleOneHit.description": "Phá phương tiện chỉ với một cú đánh.",
+
+        "module.wallClimb.description": "Leo tường như nhện.",
+
+        "module.xRay.description": "Cho phép nhìn thấy quặng xuyên tường.",
+
+        "module.zoot.description": "Loại bỏ hiệu ứng potion xấu và lửa.",
+
+        "module.keepSprint.description": "Giữ chạy nhanh sau khi đánh.",
+
+        "module.disabler.description": "Tắt phát hiện server hoặc anticheat cụ thể.",
+
+        "module.overrideRaycast.description": "Ghi đè raycast dựa trên xoay của server.",
+
+        "module.tickBase.description": "Đệm tick để đánh sớm hơn kẻ thù.",
+
+        "module.rotationRecorder.description": "Ghi lại và lưu xoay đầu.",
+
+        "module.forwardTrack.description": "Hiện vị trí thực tế của entity.",
+
+        "module.clickRecorder.description": "Ghi lại và lưu click.",
+
+        "module.chineseHat.description": "Hiển thị mũ kiểu Trung Quốc trên entity.",
+
+        "module.snakeGame.description": "Game rắn săn mồi miễn phí. sniff sniff.",
+
+        "module.anticheatDetector.description": "Phát hiện anticheat bằng cách phân tích packet."
+    }
+}
