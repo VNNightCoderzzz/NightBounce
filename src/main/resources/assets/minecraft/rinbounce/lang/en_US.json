@@ -345,6 +345,16 @@
         
         "module.safeWalk.description": "Prevents you from falling down as if you were sneaking.",
         
+        "module.RinReach.description": "It's also Reach, but taken from RinBounce.",
+        "module.rinReach.description": "It's also Reach, but taken from RinBounce.",
+        "module.Rinreach.description": "It's also Reach, but taken from RinBounce.",
+        "module.NightReach.description": "It's also Reach, but modded by NightBounce.",
+        "module.nightReach.description": "It's also Reach, but modded by NightBounce.",
+        "module.Nightreach.description": "It's also Reach, but modded by NightBounce.",
+        "module.SpinBot.description": "A Funny SpinBot Module, which makes you spin around.",
+        "module.Spinbot.description": "A Funny SpinBot Module, which makes you spin around.",
+        "module.spinBot.description": "A Funny SpinBot Module, which makes you spin around.",
+
         "module.scaffold.description": "Automatically places blocks beneath your feet.",
         
         "module.serverCrasher.description": "Allows you to crash certain server.",
