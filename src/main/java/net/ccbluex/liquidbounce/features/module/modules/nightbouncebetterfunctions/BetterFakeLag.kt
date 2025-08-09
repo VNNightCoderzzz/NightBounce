@@ -1,4 +1,4 @@
-package net.ccbluex.liquidbounce.features.module.modules.combat
+package net.ccbluex.liquidbounce.features.module.modules.nightbouncebetterfunctions
 
 import com.google.common.collect.Queues
 import net.ccbluex.liquidbounce.event.*
