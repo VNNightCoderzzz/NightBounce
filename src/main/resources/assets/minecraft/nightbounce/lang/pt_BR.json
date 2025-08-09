@@ -77,6 +77,35 @@
 
         "module.antiAFK.description": "Impede que você seja expulso por estar AFK (Inativo).",
 
+        "module.BetterVelocity.description": "Velocidade Melhorada (Versão Experimental)",
+
+"module.Bettervelocity.description": "Velocidade Melhorada (Versão Experimental)",
+
+"module.betterVelocity.description": "Velocidade Melhorada (Versão Experimental)",
+
+"module.BetterAimbot.description": "Mira Automática Melhorada (Versão Experimental)",
+
+"module.Betteraimbot.description": "Mira Automática Melhorada (Versão Experimental)",
+
+"module.betteraimbot.description": "Mira Automática Melhorada (Versão Experimental)",
+
+"module.BetterFakeLag.description": "Lag Falso Melhorado (Versão Experimental)",
+
+"module.Betterfakelag.description": "Lag Falso Melhorado (Versão Experimental)",
+
+"module.BetterHitbox.description": "Hitbox Melhorada (Versão Experimental)",
+
+"module.betterhitbox.description": "Hitbox Melhorada (Versão Experimental)",
+
+"module.betterhitBox.description": "Hitbox Melhorada (Versão Experimental)",
+
+"module.BetterhitBox.description": "Hitbox Melhorada (Versão Experimental)",
+
+"module.betterHitBox.description": "Hitbox Melhorada (Versão Experimental)",
+
+"module.betterHitbox.description": "Hitbox Melhorada (Versão Experimental)"
+
+        
         "module.antiBlind.description": "Cancela efeitos de cegueira.",
 
         "module.antiBot.description": "Impede que o KillAura ataque bots de AntiCheat.",
@@ -355,3 +384,4 @@
         "module.tickBase.description": "UNTRANSLATED: Buffers ticks to get early hits of an enemy."
     }
 }
+
