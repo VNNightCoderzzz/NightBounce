@@ -293,7 +293,7 @@ class GuiMainMenu : AbstractScreen() {
         }
 
         mc.fontRendererObj.drawStringWithShadow(
-            "b1.2.8", 10f, 10f, 0xFFFFFF
+            "b1.2.9", 10f, 10f, 0xFFFFFF
 
         )
         val liquidBounceTitle = "NightBounce"
@@ -403,6 +403,7 @@ class GuiMainMenu : AbstractScreen() {
 
 
 }
+
 
 
 
