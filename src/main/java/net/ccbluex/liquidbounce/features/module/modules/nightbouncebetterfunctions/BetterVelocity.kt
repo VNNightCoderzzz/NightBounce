@@ -14,27 +14,21 @@ import kotlin.math.sqrt
 
 object BetterVelocity : Module("BetterVelocity", Category.NIGHTBOUNCEBETTERFUNCTIONS) {
 
-    // Mode list
     private val mode by choices("Mode", arrayOf("Simple", "Hypixel", "Intave", "GrimReduce", "Reverse"), "Simple")
 
-    // Randomization
     private val horizontalMin by float("HorizontalMin", 0.6f, 0f..1f)
     private val horizontalMax by float("HorizontalMax", 0.8f, 0f..1f)
     private val verticalMin by float("VerticalMin", 0.6f, 0f..1f)
     private val verticalMax by float("VerticalMax", 0.8f, 0f..1f)
 
-    // Delay
     private val delayMs by int("DelayMs", 0, 0..500)
 
-    // GrimReduce
     private val grimTicks by int("GrimTicks", 4, 1..10)
 
-    // Motion limit
     private val limitMotion by boolean("LimitMotion", true)
     private val maxXZ by float("MaxXZ", 0.4f, 0f..1.9f)
     private val maxY by float("MaxY", 0.36f, 0f..0.46f)
 
-    // Internal vars
     private var hasVelocity = false
     private var tickCounter = 0
 
@@ -55,7 +49,7 @@ object BetterVelocity : Module("BetterVelocity", Category.NIGHTBOUNCEBETTERFUNCT
         player.motionZ *= factorZ
         player.motionY *= factorY
 
-        if (limitMotion.get()) {
+        if (limitMotion) {
             val distXZ = sqrt(player.motionX * player.motionX + player.motionZ * player.motionZ)
             if (distXZ > maxXZ) {
                 val ratioXZ = maxXZ / distXZ
@@ -74,7 +68,8 @@ object BetterVelocity : Module("BetterVelocity", Category.NIGHTBOUNCEBETTERFUNCT
         when (mode.lowercase()) {
             "grimreduce" -> {
                 if (hasVelocity && player.hurtTime in 1..grimTicks) {
-                    applyMotionReduction(player,
+                    applyMotionReduction(
+                        player,
                         randomFactor(horizontalMin, horizontalMax),
                         randomFactor(verticalMin, verticalMax),
                         randomFactor(horizontalMin, horizontalMax)
@@ -90,7 +85,8 @@ object BetterVelocity : Module("BetterVelocity", Category.NIGHTBOUNCEBETTERFUNCT
             "hypixel" -> {
                 if (hasVelocity && tickCounter < 5) {
                     tickCounter++
-                    applyMotionReduction(player,
+                    applyMotionReduction(
+                        player,
                         randomFactor(0.7f, 0.85f),
                         randomFactor(0.8f, 0.9f),
                         randomFactor(0.7f, 0.85f)
@@ -159,7 +155,6 @@ object BetterVelocity : Module("BetterVelocity", Category.NIGHTBOUNCEBETTERFUNCT
                 packet.field_149153_g *= randomFactor(verticalMin, verticalMax) // Y
                 packet.field_149159_h *= randomFactor(horizontalMin, horizontalMax) // Z
             }
-            else -> {}
         }
     }
 
