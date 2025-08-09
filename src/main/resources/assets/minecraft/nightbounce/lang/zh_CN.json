@@ -75,6 +75,34 @@
 
         "module.backtrack.description": "允许你通过攻击玩家曾经处于的位置对其进行攻击。",
 
+        "module.BetterVelocity.description": "更好的速度（实验版本）",
+
+"module.Bettervelocity.description": "更好的速度（实验版本）",
+
+"module.betterVelocity.description": "更好的速度（实验版本）",
+
+"module.BetterAimbot.description": "更好的自动瞄准（实验版本）",
+
+"module.Betteraimbot.description": "更好的自动瞄准（实验版本）",
+
+"module.betteraimbot.description": "更好的自动瞄准（实验版本）",
+
+"module.BetterFakeLag.description": "更好的假延迟（实验版本）",
+
+"module.Betterfakelag.description": "更好的假延迟（实验版本）",
+
+"module.BetterHitbox.description": "更好的碰撞箱（实验版本）",
+
+"module.betterhitbox.description": "更好的碰撞箱（实验版本）",
+
+"module.betterhitBox.description": "更好的碰撞箱（实验版本）",
+
+"module.BetterhitBox.description": "更好的碰撞箱（实验版本）",
+
+"module.betterHitBox.description": "更好的碰撞箱（实验版本）",
+
+"module.betterHitbox.description": "更好的碰撞箱（实验版本）",
+        
         "module.bedDefender.description": "自动用方块防守床",
 
         "module.bedPlates.description": "允许您看到床周围的方块。",
@@ -418,3 +446,4 @@
         "module.jumpCircle.description": "跳跃时在玩家底下生成一个圆环。"
     }
 }
+
