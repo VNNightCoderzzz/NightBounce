@@ -106,6 +106,16 @@
         "module.velocity.description": "修改你所受到的击退。",
 
         "module.abortBreaking.description": "允许你停止破坏方块而不会丢失破坏进度。",
+        
+        "module.RinReach.description": "这也是一个 Reach，但来自 RinBounce。",
+  "module.rinReach.description": "这也是一个 Reach，但来自 RinBounce。",
+  "module.Rinreach.description": "这也是一个 Reach，但来自 RinBounce。",
+  "module.NightReach.description": "这也是一个 Reach，但由 NightBounce 修改。",
+  "module.nightReach.description": "这也是一个 Reach，但由 NightBounce 修改。",
+  "module.Nightreach.description": "这也是一个 Reach，但由 NightBounce 修改。",
+  "module.SpinBot.description": "一个有趣的 SpinBot 模块，会让你旋转。",
+  "module.Spinbot.description": "一个有趣的 SpinBot 模块，会让你旋转。",
+  "module.spinBot.description": "一个有趣的 SpinBot 模块，会让你旋转。",
 
         "module.ambience.description": "改变世界时间和天气。(视觉上)",
 
