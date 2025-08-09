@@ -103,7 +103,7 @@
 
 "module.betterHitBox.description": "Hitbox Melhorada (Versão Experimental)",
 
-"module.betterHitbox.description": "Hitbox Melhorada (Versão Experimental)"
+"module.betterHitbox.description": "Hitbox Melhorada (Versão Experimental)",
 
         
         "module.antiBlind.description": "Cancela efeitos de cegueira.",
@@ -384,4 +384,5 @@
         "module.tickBase.description": "UNTRANSLATED: Buffers ticks to get early hits of an enemy."
     }
 }
+
 
