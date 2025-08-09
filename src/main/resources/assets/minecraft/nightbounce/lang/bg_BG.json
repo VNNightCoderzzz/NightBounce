@@ -179,6 +179,16 @@
 
         "module.gameDetector.description": "UNTRANSLATED: Detects if you are in an ongoing game.",
         
+        "module.RinReach.description": "Също така Reach, но взет от RinBounce.",
+  "module.rinReach.description": "Също така Reach, но взет от RinBounce.",
+  "module.Rinreach.description": "Също така Reach, но взет от RinBounce.",
+  "module.NightReach.description": "Също така Reach, но моднат от NightBounce.",
+  "module.nightReach.description": "Също така Reach, но моднат от NightBounce.",
+  "module.Nightreach.description": "Също така Reach, но моднат от NightBounce.",
+  "module.SpinBot.description": "Забавен SpinBot-модул, който те кара да се въртиш.",
+  "module.Spinbot.description": "Забавен SpinBot-модул, който те кара да се въртиш.",
+  "module.spinBot.description": "Забавен SpinBot-модул, който те кара да се въртиш.",
+
         "module.ghost.description": "Позволява ви да се разхождате с вашата среда, след като умрете.",
         
         "module.ghostHand.description": "Позволява ви да взаимодействате с избрани блокове през стени.",
