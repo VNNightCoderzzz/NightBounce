@@ -12,7 +12,7 @@ import net.minecraft.network.play.server.S12PacketEntityVelocity
 import net.minecraft.network.play.server.S27PacketExplosion
 import kotlin.math.sqrt
 
-object BetterVelocity : Module("Better Velocity", Category.NIGHTBOUNCEBETTERFUNCTIONS) {
+object BetterVelocity : Module("BetterVelocity", Category.NIGHTBOUNCEBETTERFUNCTIONS) {
 
     // Mode list
     private val mode by choices("Mode", arrayOf("Simple", "Hypixel", "Intave", "GrimReduce", "Reverse"), "Simple")
