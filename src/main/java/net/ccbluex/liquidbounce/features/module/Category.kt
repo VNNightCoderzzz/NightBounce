@@ -12,8 +12,10 @@ enum class Category(val displayName: String) {
     WORLD("World"),
     MISC("Misc"),
     EXPLOIT("Exploit"),
-    FUN("Fun");
+    FUN("Fun"),
+    NIGHTBOUNCEBETTERFUNCTIONS("NightBounce Function");
 
     val iconResourceLocation = ResourceLocation("${CLIENT_NAME.lowercase()}/tabgui/${name.lowercase()}.png")
 
 }
+
