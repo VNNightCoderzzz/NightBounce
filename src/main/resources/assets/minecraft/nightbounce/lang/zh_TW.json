@@ -2,7 +2,7 @@
     "locale": "zh_TW",
     "contributors": [
         "latiao_1337",
-        "Xebook1",
+        "Xebook1"
     ],
     "translations": {
         "menu.altManager": "帳號管理",
@@ -118,7 +118,15 @@
         "module.animations.description": "自定義格擋動畫。",
 
         "module.antiAFK.description": "防止掛機時被踢。",
-
+        "module.RinReach.description": "這也是一個 Reach，但來自 RinBounce。",
+  "module.rinReach.description": "這也是一個 Reach，但來自 RinBounce。",
+  "module.Rinreach.description": "這也是一個 Reach，但來自 RinBounce。",
+  "module.NightReach.description": "這也是一個 Reach，但由 NightBounce 修改。",
+  "module.nightReach.description": "這也是一個 Reach，但由 NightBounce 修改。",
+  "module.Nightreach.description": "這也是一個 Reach，但由 NightBounce 修改。",
+  "module.SpinBot.description": "一個有趣的 SpinBot 模組，會讓你旋轉。",
+  "module.Spinbot.description": "一個有趣的 SpinBot 模組，會讓你旋轉。",
+  "module.spinBot.description": "一個有趣的 SpinBot 模組，會讓你旋轉。",
         "module.antiBlind.description": "消除失明效果。(視覺上)",
 
         "module.antiBot.description": "防止殺戮光環攻擊反作弊發的假人。",
