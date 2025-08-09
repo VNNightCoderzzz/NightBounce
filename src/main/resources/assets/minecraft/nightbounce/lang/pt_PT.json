@@ -26,6 +26,34 @@
   "module.SpinBot.description": "Um módulo SpinBot engraçado que te faz girar.",
   "module.Spinbot.description": "Um módulo SpinBot engraçado que te faz girar.",
   "module.spinBot.description": "Um módulo SpinBot engraçado que te faz girar.",
+  "module.BetterVelocity.description": "Velocidade Melhorada (Versão Experimental)",
+
+"module.Bettervelocity.description": "Velocidade Melhorada (Versão Experimental)",
+
+"module.betterVelocity.description": "Velocidade Melhorada (Versão Experimental)",
+
+"module.BetterAimbot.description": "Mira Automática Melhorada (Versão Experimental)",
+
+"module.Betteraimbot.description": "Mira Automática Melhorada (Versão Experimental)",
+
+"module.betteraimbot.description": "Mira Automática Melhorada (Versão Experimental)",
+
+"module.BetterFakeLag.description": "Atraso Falso Melhorado (Versão Experimental)",
+
+"module.Betterfakelag.description": "Atraso Falso Melhorado (Versão Experimental)",
+
+"module.BetterHitbox.description": "Caixa de Acerto Melhorada (Versão Experimental)",
+
+"module.betterhitbox.description": "Caixa de Acerto Melhorada (Versão Experimental)",
+
+"module.betterhitBox.description": "Caixa de Acerto Melhorada (Versão Experimental)",
+
+"module.BetterhitBox.description": "Caixa de Acerto Melhorada (Versão Experimental)",
+
+"module.betterHitBox.description": "Caixa de Acerto Melhorada (Versão Experimental)",
+
+"module.betterHitbox.description": "Caixa de Acerto Melhorada (Versão Experimental)"
+
         "module.aimbot.description": "Automaticamente olha nas entidades selecionadas á volta de ti.",
 
         "module.autoArmor.description": "Automaticamente equipa a melhor armadura no teu inventário.",
@@ -349,3 +377,4 @@
         "module.tickBase.description": "UNTRANSLATED: Buffers ticks to get early hits of an enemy."
     }
 }
+
