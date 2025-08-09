@@ -37,7 +37,7 @@ object BetterHitBox : Module("BetterHitBox", Category.NIGHTBOUNCEBETTERFUNCTIONS
 
                 when {
                     isBot(entity) -> botSize
-                    entity.isClientFriend() && !NoFriends.handleEvents() -> friendSize
+                    entity.isClientFriend() -> friendSize
                     Teams.handleEvents() && Teams.isInYourTeam(entity) -> teamMateSize
                     else -> playerSize
                 }
