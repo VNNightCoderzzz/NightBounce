@@ -69,6 +69,35 @@
 
         "module.antiHunger.description": "Предпазва от огладняване.",
 
+        "module.BetterVelocity.description": "Подобрена скорост (Експериментална версия)",
+
+"module.Bettervelocity.description": "Подобрена скорост (Експериментална версия)",
+
+"module.betterVelocity.description": "Подобрена скорост (Експериментална версия)",
+
+"module.BetterAimbot.description": "Подобрен aimbot (Експериментална версия)",
+
+"module.Betteraimbot.description": "Подобрен aimbot (Експериментална версия)",
+
+"module.betteraimbot.description": "Подобрен aimbot (Експериментална версия)",
+
+"module.BetterFakeLag.description": "Подобрен фалшив лаг (Експериментална версия)",
+
+"module.Betterfakelag.description": "Подобрен фалшив лаг (Експериментална версия)",
+
+"module.BetterHitbox.description": "Подобрен хитбокс (Експериментална версия)",
+
+"module.betterhitbox.description": "Подобрен хитбокс (Експериментална версия)",
+
+"module.betterhitBox.description": "Подобрен хитбокс (Експериментална версия)",
+
+"module.BetterhitBox.description": "Подобрен хитбокс (Експериментална версия)",
+
+"module.betterHitBox.description": "Подобрен хитбокс (Експериментална версия)",
+
+"module.betterHitbox.description": "Подобрен хитбокс (Експериментална версия)",
+
+        
         "module.bedGodMode.description": "Позволява ви да се разхождате легнали в леглото. (За 1.9)",
 
         "module.clip.description": "Позволява ви да 'клипвате' пред блокове.",
@@ -358,3 +387,4 @@
         "module.tickBase.description": "UNTRANSLATED: Buffers ticks to get early hits of an enemy."
     }
 }
+
