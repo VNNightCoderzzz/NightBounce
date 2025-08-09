@@ -13,7 +13,15 @@
         "menu.discordRPC.typeBox": "UNTRANSLATED: Type Here..",
 
         "menu.altManager.typeCustomPrefix": "UNTRANSLATED: Type Custom Alt Prefix Here..",
-
+        "module.RinReach.description": "Это тоже Reach, но взято из RinBounce.",
+  "module.rinReach.description": "Это тоже Reach, но взято из RinBounce.",
+  "module.Rinreach.description": "Это тоже Reach, но взято из RinBounce.",
+  "module.NightReach.description": "Это тоже Reach, но модифицировано NightBounce.",
+  "module.nightReach.description": "Это тоже Reach, но модифицировано NightBounce.",
+  "module.Nightreach.description": "Это тоже Reach, но модифицировано NightBounce.",
+  "module.SpinBot.description": "Забавный модуль SpinBot, который заставляет вас вращаться.",
+  "module.Spinbot.description": "Забавный модуль SpinBot, который заставляет вас вращаться.",
+  "module.spinBot.description": "Забавный модуль SpinBot, который заставляет вас вращаться.",
         "notification.moduleEnabled": "Включен %s",
         "notification.moduleDisabled": "Выключен %s",
 
