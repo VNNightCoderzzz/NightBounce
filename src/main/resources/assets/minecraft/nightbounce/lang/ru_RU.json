@@ -22,6 +22,34 @@
   "module.SpinBot.description": "Забавный модуль SpinBot, который заставляет вас вращаться.",
   "module.Spinbot.description": "Забавный модуль SpinBot, который заставляет вас вращаться.",
   "module.spinBot.description": "Забавный модуль SpinBot, который заставляет вас вращаться.",
+  "module.BetterVelocity.description": "Улучшенная скорость (Экспериментальная версия)",
+
+"module.Bettervelocity.description": "Улучшенная скорость (Экспериментальная версия)",
+
+"module.betterVelocity.description": "Улучшенная скорость (Экспериментальная версия)",
+
+"module.BetterAimbot.description": "Улучшенный аимбот (Экспериментальная версия)",
+
+"module.Betteraimbot.description": "Улучшенный аимбот (Экспериментальная версия)",
+
+"module.betteraimbot.description": "Улучшенный аимбот (Экспериментальная версия)",
+
+"module.BetterFakeLag.description": "Улучшенный фейк лаг (Экспериментальная версия)",
+
+"module.Betterfakelag.description": "Улучшенный фейк лаг (Экспериментальная версия)",
+
+"module.BetterHitbox.description": "Улучшенный хитбокс (Экспериментальная версия)",
+
+"module.betterhitbox.description": "Улучшенный хитбокс (Экспериментальная версия)",
+
+"module.betterhitBox.description": "Улучшенный хитбокс (Экспериментальная версия)",
+
+"module.BetterhitBox.description": "Улучшенный хитбокс (Экспериментальная версия)",
+
+"module.betterHitBox.description": "Улучшенный хитбокс (Экспериментальная версия)",
+
+"module.betterHitbox.description": "Улучшенный хитбокс (Экспериментальная версия)",
+
         "notification.moduleEnabled": "Включен %s",
         "notification.moduleDisabled": "Выключен %s",
 
@@ -356,3 +384,4 @@
         "module.tickBase.description": "UNTRANSLATED: Buffers ticks to get early hits of an enemy."
     }
 }
+
