@@ -17,7 +17,15 @@
 
         "notification.moduleEnabled": "Ligaste %s",
         "notification.moduleDisabled": "Desligastes %s",
-
+        "module.RinReach.description": "Também é Reach, mas retirado do RinBounce.",
+  "module.rinReach.description": "Também é Reach, mas retirado do RinBounce.",
+  "module.Rinreach.description": "Também é Reach, mas retirado do RinBounce.",
+  "module.NightReach.description": "Também é Reach, mas modificado pelo NightBounce.",
+  "module.nightReach.description": "Também é Reach, mas modificado pelo NightBounce.",
+  "module.Nightreach.description": "Também é Reach, mas modificado pelo NightBounce.",
+  "module.SpinBot.description": "Um módulo SpinBot engraçado que te faz girar.",
+  "module.Spinbot.description": "Um módulo SpinBot engraçado que te faz girar.",
+  "module.spinBot.description": "Um módulo SpinBot engraçado que te faz girar.",
         "module.aimbot.description": "Automaticamente olha nas entidades selecionadas á volta de ti.",
 
         "module.autoArmor.description": "Automaticamente equipa a melhor armadura no teu inventário.",
