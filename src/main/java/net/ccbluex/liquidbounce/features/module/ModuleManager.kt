@@ -11,6 +11,7 @@ import net.ccbluex.liquidbounce.features.module.modules.`fun`.SkinDerp
 import net.ccbluex.liquidbounce.features.module.modules.`fun`.SnakeGame
 import net.ccbluex.liquidbounce.features.module.modules.misc.*
 import net.ccbluex.liquidbounce.features.module.modules.movement.*
+import net.ccbluex.liquidbounce.features.module.modules.nightbouncebetterfunctions.*
 import net.ccbluex.liquidbounce.features.module.modules.player.*
 import net.ccbluex.liquidbounce.features.module.modules.render.*
 import net.ccbluex.liquidbounce.features.module.modules.world.*
@@ -28,6 +29,7 @@ object ModuleManager : Listenable, Collection<Module> by MODULE_REGISTRY {
 
         // Register modules
     val modules = arrayOf(
+            // LiquidBounce modules
             AbortBreaking,
             Aimbot,
             Ambience,
@@ -170,8 +172,15 @@ object ModuleManager : Listenable, Collection<Module> by MODULE_REGISTRY {
             ResourcePackSpoof,
             ReverseStep,
             Rotations,
+            // RinBounce modules
             RinReach,
+            // NightBounce modules
             NightReach,
+            BetterAimbot,
+            BetterVelocity,
+            BetterFakeLag,
+            BetterHitbox,
+            // LiquidBounce modules
             SafeWalk,
             Scaffold,
             ServerCrasher,
@@ -262,3 +271,4 @@ object ModuleManager : Listenable, Collection<Module> by MODULE_REGISTRY {
     }
 
 }
+
