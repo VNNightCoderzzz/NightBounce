@@ -207,6 +207,35 @@
         
         "module.fastUse.description": "Allows you to use items faster.",
 
+         "module.BetterVelocity.description": "Better Velocity (Experimental Version)",
+
+"module.Bettervelocity.description": "Better Velocity (Experimental Version)",
+
+"module.betterVelocity.description": "Better Velocity (Experimental Version)",
+
+"module.BetterAimbot.description": "Better Aimbot (Experimental Version)",
+
+"module.Betteraimbot.description": "Better Aimbot (Experimental Version)",
+
+"module.betteraimbot.description": "Better Aimbot (Experimental Version)",
+
+"module.BetterFakeLag.description": "Better Fake Lag (Experimental Version)",
+
+"module.Betterfakelag.description": "Better Fake Lag (Experimental Version)",
+
+"module.BetterHitbox.description": "Better Hitbox (Experimental Version)",
+
+"module.betterhitbox.description": "Better Hitbox (Experimental Version)",
+
+"module.betterhitBox.description": "Better Hitbox (Experimental Version)",
+
+"module.BetterhitBox.description": "Better Hitbox (Experimental Version)",
+
+"module.betterHitBox.description": "Better Hitbox (Experimental Version)",
+
+"module.betterHitbox.description": "Better Hitbox (Experimental Version)",
+
+        
         "module.flagCheck.description": "Detects if you get flagged by an AntiCheat.",
         
         "module.fly.description": "Allows you to fly in survival mode.",
@@ -424,3 +453,4 @@
         "module.anticheatDetector.description": "Detects anti-cheats by analyzing specific packets."
     }
 }
+
