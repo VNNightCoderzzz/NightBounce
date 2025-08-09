@@ -253,6 +253,17 @@
 
         "module.noWeb.description": "Impede que você seja desacelerado em teias.",
 
+         "module.RinReach.description": "Também é Reach, mas retirado do RinBounce.",
+  "module.rinReach.description": "Também é Reach, mas retirado do RinBounce.",
+  "module.Rinreach.description": "Também é Reach, mas retirado do RinBounce.",
+  "module.NightReach.description": "Também é Reach, mas modificado pelo NightBounce.",
+  "module.nightReach.description": "Também é Reach, mas modificado pelo NightBounce.",
+  "module.Nightreach.description": "Também é Reach, mas modificado pelo NightBounce.",
+  "module.SpinBot.description": "Um módulo SpinBot engraçado que faz você girar.",
+  "module.Spinbot.description": "Um módulo SpinBot engraçado que faz você girar.",
+  "module.spinBot.description": "Um módulo SpinBot engraçado que faz você girar.",
+
+
         "module.nuker.description": "Destroi todos os blocos ao seu redor.",
 
         "module.packetDebugger.description": "UNTRANSLATED: Allows you to debug server/client packets that being sent/receive",
