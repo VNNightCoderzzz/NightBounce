@@ -179,7 +179,6 @@ object ModuleManager : Listenable, Collection<Module> by MODULE_REGISTRY {
             BetterAimbot,
             BetterVelocity,
             BetterHitBox,
-            BetterSuperKnockBack,
             // LiquidBounce modules
             SafeWalk,
             Scaffold,
@@ -271,6 +270,7 @@ object ModuleManager : Listenable, Collection<Module> by MODULE_REGISTRY {
     }
 
 }
+
 
 
 
