@@ -10,3 +10,5 @@
 - Add Better Aimbot
 - Add Better Hitbox
 - New Category ( NightBounce Functions )
+# NightBounce 1.3.1
+- Fixing ModuleManager
