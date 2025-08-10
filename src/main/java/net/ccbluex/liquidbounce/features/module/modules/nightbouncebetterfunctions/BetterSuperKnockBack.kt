@@ -1,4 +1,4 @@
-package net.ccbluex.liquidbounce.features.module.modules.combat
+package net.ccbluex.liquidbounce.features.module.modules.nightbouncebetterfunctions
 
 import net.ccbluex.liquidbounce.config.Value
 import net.ccbluex.liquidbounce.event.*
@@ -24,7 +24,7 @@ import net.minecraft.network.play.client.C0BPacketEntityAction
 import net.minecraft.network.play.client.C0BPacketEntityAction.Action.*
 import kotlin.math.abs
 
-object BetterSuperKnockback : Module("BetterSuperKnockback", Category.NIGHTBOUNCEBETTERFUNCTIONS) {
+object BetterSuperKnockback : Module("BetterSuperKnockBack", Category.NIGHTBOUNCEBETTERFUNCTIONS) {
 
     private val chance by int("Chance", 100, 0..100)
     private val delay by int("Delay", 0, 0..500)
