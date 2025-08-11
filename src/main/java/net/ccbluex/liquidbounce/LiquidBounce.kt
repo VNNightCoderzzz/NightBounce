@@ -243,11 +243,6 @@ object LiquidBounce {
             // Set is starting status
             isStarting = false
 
-            if (!FileManager.firstStart && FileManager.backedup) {
-                SharedScopes.IO.launch {
-                    MiscUtils.showMessageDialog("Warning: backup triggered", "Client update detected! Please check the config folder.")
-                }
-            }
 
             EventManager.call(StartupEvent)
             LOGGER.info("Successfully started client")
@@ -266,6 +261,7 @@ object LiquidBounce {
     }
 
 }
+
 
 
 
