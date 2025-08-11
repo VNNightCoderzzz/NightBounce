@@ -12,3 +12,5 @@
 - New Category ( NightBounce Functions )
 # NightBounce 1.3.1
 - Fixing ModuleManager
+# NightBounce 1.3.2
+- Fixing Crash
