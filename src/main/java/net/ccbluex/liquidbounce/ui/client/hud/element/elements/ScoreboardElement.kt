@@ -150,8 +150,8 @@ class ScoreboardElement(
                                     val colorCode = name?.substring(0, 2) ?: "§9"
                                     name = when (serverIp.lowercase()) {
                                         "none" -> ""
-                                        "client" -> "rinbounce69"
-                                        "website" -> "rinbounce.wtf"
+                                        "client" -> "NightBounce"
+                                        "website" -> "nightbounce.getsonicwave.xyz"
                                         else -> return null
                                     }
                                 }
@@ -255,5 +255,6 @@ class ScoreboardElement(
 
         return null
     }
+
 
 }
