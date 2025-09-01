@@ -218,6 +218,7 @@
 "module.Betteraimbot.description": "Better Aimbot (Experimental Version)",
 
 "module.betteraimbot.description": "Better Aimbot (Experimental Version)",
+        "module.betterAimbot.description": "Better Aimbot (Experimental Version)",
 
 "module.BetterFakeLag.description": "Better Fake Lag (Experimental Version)",
 
@@ -453,3 +454,4 @@
         "module.anticheatDetector.description": "Detects anti-cheats by analyzing specific packets."
     }
 }
+
