@@ -22,6 +22,7 @@ object LanguageManager : MinecraftInstance {
     // List of all languages
     val knownLanguages = arrayOf(
         "en_US",
+        "vi_VN",
         "pt_BR",
         "pt_PT",
         "zh_CN",
@@ -56,5 +57,6 @@ class Language(val locale: String, val contributors: List<String>, val translati
     fun getTranslation(key: String, vararg args: Any) = translations[key]?.format(args = args)
 
     override fun toString() = locale
+
 
 }
