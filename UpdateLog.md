@@ -14,3 +14,5 @@
 - Fixing ModuleManager
 # NightBounce 1.3.2
 - Fixing Crash
+# NightBounce 1.3.3
+- Fixing GUI
