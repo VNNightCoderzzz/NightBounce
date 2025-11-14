@@ -1,7 +1,7 @@
 {
   "required": true,
   "package": "net.ccbluex.liquidbounce.injection.forge.mixins",
-  "refmap": "liquidbounce.mixins.refmap.json",
+  "refmap": "nightbounce.mixins.refmap.json",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "block.MixinBlock",
@@ -82,4 +82,5 @@
     "render.MixinRenderGlobal",
     "tweaks.MixinEntityFX"
   ]
+
 }
