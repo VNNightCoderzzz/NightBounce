@@ -16,3 +16,6 @@
 - Fixing Crash
 # NightBounce 1.3.3
 - Fixing GUI
+# NightBounce 1.3.4
+- Fixing UI
+- Fixing Crashing
