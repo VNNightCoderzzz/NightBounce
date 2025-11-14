@@ -22,8 +22,6 @@ import kotlin.math.*
 import kotlin.random.Random
 
 class GuiMainMenu : AbstractScreen() {
-
-
     private var animationTime = 0f
     private var fadeAlpha = 255
     private var fadeIn = true
@@ -403,6 +401,7 @@ class GuiMainMenu : AbstractScreen() {
 
 
 }
+
 
 
 
