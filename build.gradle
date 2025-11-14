@@ -43,7 +43,7 @@ configurations {
 compileJava {
     options.compilerArgs += [
         "-AreobfSrgFile=${project.buildDir}/tmp/reobfSrg.srg",
-        "-AoutRefMap=liquidbounce.mixins.refmap.json"
+        "-AoutRefMap=nightbounce.mixins.refmap.json"
     ]
 }
 
@@ -126,7 +126,7 @@ task moveResources {
 
 tasks.withType(ProcessResources) {
     from("$buildDir/classes/kotlin/main") {
-        include "liquidbounce.mixins.refmap.json"
+        include "nightbounce.mixins.refmap.json"
         into "META-INF"
     }
 }
@@ -140,11 +140,11 @@ jar {
             "FMLCorePlugin": "net.ccbluex.liquidbounce.injection.forge.MixinLoader",
             "FMLCorePluginContainsFMLMod": true,
             "ForceLoadAsMod": true,
-            "MixinConfigs": "liquidbounce.forge.mixins.json",
+            "MixinConfigs": "nightbounce.forge.mixins.json",
             "ModSide": "CLIENT",
             "TweakClass": "org.spongepowered.asm.launch.MixinTweaker",
             "TweakOrder": "0",
-            "FMLAT": "liquidbounce_at.cfg",
+            "FMLAT": "nightbounce_at.cfg",
             "Main-Class": "net.ccbluex.liquidinstruction.LiquidInstructionKt",
     )
     exclude('module-info.class')
@@ -154,7 +154,7 @@ jar {
 mixin {
     disableRefMapWarning = true
     defaultObfuscationEnv searge
-    add sourceSets.main, "liquidbounce.mixins.refmap.json"
+    add sourceSets.main, "nightbounce.mixins.refmap.json"
 }
 
 reobf {
@@ -173,3 +173,4 @@ task copyZipInclude(type: Copy) {
 }
 
 build.dependsOn copyZipInclude
+
