@@ -59,7 +59,7 @@ import javax.swing.UIManager
 
 object LiquidBounce {
 
-        const val CLIENT_NAME = "NightBounce"
+    const val CLIENT_NAME = "NightBounce"
 
     const val CLIENT_AUTHOR = "CCBlueX, Rattermc, VNNightCoderzzz"
     const val CLIENT_CLOUD = "https://cloud.liquidbounce.net/LiquidBounce"
@@ -261,6 +261,7 @@ object LiquidBounce {
     }
 
 }
+
 
 
 
