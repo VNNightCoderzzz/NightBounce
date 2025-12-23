@@ -1,6 +1,5 @@
 # NightBounce
 
-![GitHub branch status](https://img.shields.io/github/checks-status/VNNightCoderzzz/NightBounce/) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/VNNightCoderzzz/NightBounce/main) ![GitHub contributors](https://img.shields.io/github/contributors/VNNightCoderzzz/NightBounce)
 
 A Vietnamese community driven fork of [LiquidBounce](https://github.com/CCBlueX/LiquidBounce/tree/legacy) And [RinBounce](https://github.com/congtygiadinh/rinbounce), aimed to have bypass for multiple Vietnamese Minecraft servers. ( Expansion Version )
 
@@ -49,6 +48,7 @@ NightBounce is an open-source project under the [GNU General Public License 3.0 
     ```
 
 4. Open the project in your favourite IDE (e.g., [IntelliJ IDEA](https://www.jetbrains.com/idea/), [Eclipse](https://www.eclipse.org/)).
+
 
 
 
